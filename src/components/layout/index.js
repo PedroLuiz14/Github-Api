@@ -2,11 +2,11 @@ import React from "react";
 import Header from "../header";
 import * as S from "./styled";
 
-const Layout = ({Children}) => {
+const Layout = ({children}) => {
   return (
     <S.WrapperLayout>
       <Header/>
-     {Children}
+     {children}
     </S.WrapperLayout>
   );
 };
