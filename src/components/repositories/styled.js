@@ -26,11 +26,11 @@ export const WrapperTab = styled(Tab)`
   background-color: '#fff';
   margin: 8px;
 
-  &: focus {
+  &:focus {
     outline: none;
   }
 
-  &.is-selectd {
+  &.is-selected {
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
   }
 `;
