@@ -8,7 +8,7 @@ export const GithubContext = createContext ({
   starred: [],
 });
 
-const GithubProvider = ( { Children } ) => {
+const GithubProvider = ( { children } ) => {
   const [githubState, setGithubState] = useState({
     hasUser: false,
     loading: false,
@@ -91,7 +91,7 @@ const contextValue = {
 
   return (
     <GithubContext.Provider value={contextValue}>
-      {Children}
+      {children}
     </GithubContext.Provider>
   );
 };
