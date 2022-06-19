@@ -24,7 +24,7 @@ export const WrapperTab = styled(Tab)`
   cursor: pointer;
   z-index: 99999;
   background-color: '#fff';
-  margin: 8px
+  margin: 8px;
 
   &: focus {
     outline: none;
